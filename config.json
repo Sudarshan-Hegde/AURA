@@ -1,0 +1,21 @@
+{
+    "server": {
+        "host": "0.0.0.0",
+        "port": 8888,
+        "max_connections": 100
+    },
+    "client": {
+        "default_host": "localhost",
+        "default_port": 8888,
+        "reconnect_attempts": 3,
+        "reconnect_delay": 5
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "aura.log"
+    },
+    "security": {
+        "enable_encryption": false,
+        "max_message_size": 4096
+    }
+}
